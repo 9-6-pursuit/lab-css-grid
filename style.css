@@ -1,5 +1,14 @@
 /* Write your CSS here! */
 
+.primary-content, .header {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+/* .header {
+  display: grid;
+  grid-template-columns: 50%, 50%;
+} */
 /* Do not change the CSS below. */
 
 .header {
