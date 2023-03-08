@@ -1,4 +1,17 @@
 /* Write your CSS here! */
+.primary-content, .header{
+  display: grid;
+  grid-template-columns: 25% 80%;
+}
+/* .footer{
+  display: grid;
+  grid-template-rows: 30px;
+}
+
+
+
+
+
 
 /* Do not change the CSS below. */
 
