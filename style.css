@@ -1,4 +1,20 @@
 /* Write your CSS here! */
+/* * {
+  outline: 1px solid #000
+} */
+
+.header {
+  display: flex;
+}
+.menu {
+  margin-left: 143px;
+}
+
+.primary-content, header {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
 
 /* Do not change the CSS below. */
 
