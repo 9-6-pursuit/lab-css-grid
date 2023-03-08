@@ -1,9 +1,28 @@
 /* Write your CSS here! */
 
+.primary-content, .header{
+  display:grid;
+  grid-template-columns: 20% 80%;
+}
+
+.main {
+  display:flex;
+  overflow: hidden;
+}
+
+.main img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+p {
+  text-shadow: 1px 1px black;
+}
+
 /* Do not change the CSS below. */
 
 .header {
-  background: #4242ea;
+  background:linear-gradient(to top, orange, rgb(255, 213, 0));
 }
 
 .logo img {
@@ -24,6 +43,7 @@
 .menu a {
   color: white;
   text-decoration: none;
+  text-shadow: 1px 1px black;
 }
 
 .sidebar {
@@ -39,7 +59,7 @@
 }
 
 .footer {
-  background: yellow;
+  background:linear-gradient(to top, orange, rgb(255, 213, 0));
   padding: 10px;
   text-align: center;
 }
